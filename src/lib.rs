@@ -56,8 +56,6 @@ pub mod sql;
 pub mod time;
 #[cfg(feature = "toml")]
 pub mod toml;
-#[cfg(feature = "udp")]
-pub mod udp;
 #[cfg(feature = "unzip")]
 pub mod unzip;
 #[cfg(feature = "url")]
